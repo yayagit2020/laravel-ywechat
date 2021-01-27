@@ -1,0 +1,17 @@
+{
+	"name": "yaya\/laravel-wechat",
+    "description": "a yaya laravel wechat",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Yaya\\LaravelWechat\\": ""
+        }
+    },
+    "extra":{
+        "laravel":{
+            "providers":[
+                "Yaya\\LaravelWechat\\Providers\\WeChatServiceProvider"
+            ]
+        }
+    }
+}
